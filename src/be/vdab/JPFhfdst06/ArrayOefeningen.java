@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class ArrayOefeningen {
     public static void main(String[] args) {
         int[] ints = new int[5];
-        int random = (int) (Math.random() * 101);
+//        int random = (int) (Math.random() * 101);
         for (int i = 0; i < ints.length; i++) {
             ints[i] = (int) (Math.random() * 101);
         }
